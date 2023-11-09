@@ -1,6 +1,8 @@
 <template>
-<h4>Your Balance</h4>
-<h1 id="balance">${{ total }}</h1>
+<div class="balance">
+  <h4>Your Balance</h4>
+  <h1 id="balance">${{ total }}</h1>
+</div>
 </template>
 <script setup>
 const props= defineProps({

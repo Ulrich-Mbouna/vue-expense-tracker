@@ -1,7 +1,25 @@
-# Vue 3 + Vite
+## Application Name
+Expense Tracker
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Description
+Expense Tracker is an app that lets you track your daily expenses and manage your budget. You can add custom expense categories and track your spending by category. The app is easy to use and designed to help you stay on track with your budget.
 
-## Recommended IDE Setup
+## Technologies used
+For this projet we used several technology : 
+ - HTML : For markup language
+ - CSS : For styling
+ - Javascript:  For Interactivity part
+  
+  ### Framework
+- [Vuejs](https://vuejs.org) : Javascript framework
+- [VueToastification](https://vue-toastification.maronato.dev/) : For beautiful alerte after actions
+- [Formkit](https://formkit.com/) : Form management
+- [AutoAnimate](https://auto-animate.formkit.com/) : Bringing some animation 
+## Features
+With this application, you can, create expenses, delete expenses, cehck your balance, check also your income and you expense.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Screenshots
+![alt Preview Expense Tracker App](./public/images/app-preview.png)
+
+### Follow me
+You can learn more, by contact me on [X](https://twitter.com/MbounaU)(Aka Twitter) or on [LinkedIn](https://www.linkedin.com/in/ulrich-mbouna/). Thanks

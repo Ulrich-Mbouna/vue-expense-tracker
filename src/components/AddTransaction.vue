@@ -32,6 +32,7 @@ const onSubmit = async (data, node) => {
     setTimeout(() => {
       emit('transactionSubmitted', transactionData)
       resolve()
+      node.reset()
     }, 800)
   })
 }
