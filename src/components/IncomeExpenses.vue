@@ -1,0 +1,24 @@
+<template>
+<div class="inc-exp-container">
+    <div class="">
+        <h4>Income</h4>
+        <p id="money-plus" class="money plus">+${{ income }}</p>
+    </div>
+    <div class="">
+        <h4>Expense</h4>
+        <p id="money-minus" class="money minus">-${{ expenses }}</p>
+    </div>
+</div>
+</template>
+<script setup>
+const props = defineProps({
+    income: {
+        type: Number,
+        default: 0
+    },
+    expenses: {
+        type: Number,
+        default: 0
+    }
+})
+</script>
